@@ -14,7 +14,7 @@ Run the following the build the docker image for the CTS
 
 # Testing 
 
-The CTS accepts POST requests on port 5021. Send a POST request with a JSON body with one parameter 'component_id'.
+The CTS accepts POST requests on localhost:5021/kill, localhost:5021/disconnect and localhost:5021/reconnect. Send a POST request with a JSON body with one parameter 'component_id'.
 Sample JSON
 
     {
