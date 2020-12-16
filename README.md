@@ -8,12 +8,12 @@ Run the following the build the docker image for the CTS
 
 # Testing 
 
-The CTS accepts POST requests on port 5021. Run the DCN StubSend a POST request with a JSON body with one parameter 'component_id'.
+The CTS accepts POST requests on port 5021. Send a POST request with a JSON body with one parameter 'component_id'.
 Sample JSON
 
-{
-    'component_id':'worker2'
-}
+    {
+        'component_id':'worker2'
+    }
 
 # Testing with the DCN
 
