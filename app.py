@@ -6,7 +6,7 @@ import json
 app = Flask(__name__)
 
 def validate_component_id(component_id):
-    if len(component_id)>10 or len(component_id)==0 or component_id == None:
+    if len(component_id)>20 or len(component_id)==0 or component_id == None:
         return True
     else:
         return False
